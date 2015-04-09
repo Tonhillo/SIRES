@@ -37,6 +37,7 @@ public class GUICurso extends javax.swing.JFrame {
         labelSiglasCurso = new javax.swing.JLabel();
         labelCreditosCurso = new javax.swing.JLabel();
         botonRegistrarCurso = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(26, 209, 54));
@@ -64,6 +65,8 @@ public class GUICurso extends javax.swing.JFrame {
             }
         });
 
+        jLabel2.setText("sdfsdfsdfjnsdfknjdsfnsdf");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -88,6 +91,10 @@ public class GUICurso extends javax.swing.JFrame {
                         .addGap(116, 116, 116)
                         .addComponent(jLabel1)))
                 .addContainerGap(94, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jLabel2)
+                .addGap(167, 167, 167))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -112,7 +119,9 @@ public class GUICurso extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(fieldCreditosCurso, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(labelCreditosCurso, javax.swing.GroupLayout.Alignment.TRAILING))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 56, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 36, Short.MAX_VALUE)
+                .addComponent(jLabel2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(botonRegistrarCurso)
                 .addGap(54, 54, 54))
         );
@@ -138,6 +147,7 @@ public class GUICurso extends javax.swing.JFrame {
     private javax.swing.JTextField fieldNombreCurso;
     private javax.swing.JTextField fieldSiglasCurso;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel labelCreditosCurso;
     private javax.swing.JLabel labelNombreCurso;
     private javax.swing.JLabel labelSiglasCurso;
